@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="js/index.js"></script>
+    <title>Tugas RevoU - Muhammad Reyhan Asahy</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Katik</h1>
+        <p>kalkulator matematik</p>
+    </div>
+    <div class="container">
+        <h2>Menghitung Luas & Keliling persegi</h2>
+        <br>
+        <br>
+        <div class="persegi"></div>
+        <h2>Bujur Sangkar</h2><br>
+        
+       <div class="deskripsi">
+        <p id="title">Rumus Luas & Keliling Persegi : </p><br>
+        <h3 id="formula">L = S x S <br> K = 4 x S</h3><br>
+        <p id="deskripsi">Di mana : <br>
+            L = Luas <br>S = Sisi <br> K = Keliling</p>
+            <br>
+            <hr>
+            <br>
+            <h1>Hitung Luas & Keliling Persegi</h1><br>
+            <p id="hasil"></p>
+            <input type="number" id="data-sisi" placeholder="Input number"><br><br>
+            <label>Rumus</label>
+            <select id="rumus">
+                <option value="luas">Luas</option>
+                <option value="keliling">Keliling</option>
+            </select><br>
+            <button type="button" id="klik" onclick='klik()'>Hitung</button><br>
+            <button type="reset" id="reset" onclick="reset()">Reset</button>
+       </div>
+    </div>
+</body>
+</html>
